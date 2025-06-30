@@ -32,6 +32,7 @@ buttons.addEventListener('click', () => {
     else{
         display.textContent = '';
         generateQRCode(input.value);
+        input.value = '';
     }
 
 })
